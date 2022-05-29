@@ -1,14 +1,23 @@
 ## Node.js Template
 여러 사용자들의 템플릿을 결합하여 재구성 했습니다.  
 
-## 3 Layer Architecture
+## 추가 진행 사항
+### 환경설정
+1. winston: log 기록 남기는 방법 환경 설정
+2. jsconfig.json: 경로 환경설정
+
+### 코드수정
+1. res.send 수정 작업
+
+
+## 💡3 Layer Architecture
 비즈니스 로직을 분리하는 것을 목적으로 하며 Controller, Service Layer , Data Access Layer 라는 세개의 층으로 나뉜다.  
 
 - controller는 client와의 통신에서 필요한 req, res를 다루는 부분  
 - service layer은 business logic 처리
 - Data Access Layer 는 데이터 베이스 처리
 
-## Structure
+## 💡Structure
 개인에 따라 구성을 변경하여 사용할 수 있습니다.  
 
 ```
