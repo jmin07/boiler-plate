@@ -12,6 +12,7 @@
 1. res.send 수정(response)
 2. 예제 코드 추가 작업
 3. DB env 수정 필요
+4. 공통 Router 적용
 
 
 ## 🔥 3 Layer Architecture
