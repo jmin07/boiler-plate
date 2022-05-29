@@ -15,8 +15,8 @@
 ├── config                              # middleware 및 config 파일
 ├── src                     			
 │   ├── app              				# 앱에 대한 코드 
-│ 	│   ├── Board            			# Board 폴더
-│ 	│   ├── User            			# User 폴더
+│   │   ├── Board            			# Board 폴더
+│   │   ├── User            			# User 폴더
 서버 로직 처리
 │   │ 	│   ├── userRoute.js 		    # Route 처리
 │   │ 	│   ├── userController.js 		# req, res 처리
