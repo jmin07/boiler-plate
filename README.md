@@ -2,12 +2,15 @@
 여러 사용자들의 템플릿을 결합하여 재구성 했습니다.  
 
 ## 🔥 추가 진행 사항
+> 계속 수정 작업 진행 중입니다:)
 ### 1. 환경설정
-1. winston: log 기록 남기는 방법 환경 설정
-2. jsconfig.json: 경로 환경설정
+1. winston: log 기록
+2. jsconfig.json: 경로 설정
+3. cross-env: 단축키 설정
 
 ### 2. 코드수정
 1. res.send 수정(response)
+2. 예제 코드 추가 작업
 
 
 ## 🔥 3 Layer Architecture
