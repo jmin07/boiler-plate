@@ -18,9 +18,9 @@
 │ 	│   ├── Board            			# Board 폴더
 │ 	│   ├── User            			# User 폴더
 서버 로직 처리
-│ 	│ 	│   ├── userRoute.js 		    # Route 처리
-│ 	│ 	│   ├── userController.js 		# req, res 처리
-│ 	│ 	│   ├── userService.js   		# CUD에 해당하는 서버 로직 처리   
+│   │ 	│   ├── userRoute.js 		    # Route 처리
+│   │ 	│   ├── userController.js 		# req, res 처리
+│   │ 	│   ├── userService.js   		# CUD에 해당하는 서버 로직 처리   
 데이터베이스
 │   │ 	│   ├── userDao.js          	# UserDatabase
 ├── .gitignore                     		# git 에 포함되지 않아야 하는 폴더, 파일들을 작성 해놓는 곳
