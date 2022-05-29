@@ -1,14 +1,11 @@
-{
-    "compilerOptions": {
-        "baseUrl": ".",
-        //Assuming your components/utilities live in ./src
-        //Update this path as necessary
-        "paths": {
-            "@express":["./config/express"],
-            "@User":["./src/app/User"],
-            "@Board":["./src/app/Board"]
-        }
-    },
-    //Add any build/compiled folders here to stop vscode searching those
-    "exclude": ["node_modules", "build"]
-}
+// {
+//     "compilerOptions": {
+//         "baseUrl": "./src/app/",
+//         "module":"CommonJS",
+//         "target": "ES6",
+//         "paths": {
+//             "@app/*": ["User/*"],
+//         }
+//     },
+//     "exclude": ["node_modules"]
+// }

@@ -1,4 +1,5 @@
 const mysql = require('mysql2/promise');
+require('dotenv').config
 
 // TODO: 본인 DB 계정 입력
 
