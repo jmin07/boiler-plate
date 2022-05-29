@@ -11,6 +11,7 @@
 ## Structure
 개인에 따라 구성을 변경하여 사용할 수 있습니다.  
 
+```
 ├── config                              # middleware 및 config 파일
 ├── src                     			
 │   ├── app              				# 앱에 대한 코드 
@@ -24,3 +25,4 @@
 │   │ 	│   ├── userDao.js          	# UserDatabase
 ├── .gitignore                     		# git 에 포함되지 않아야 하는 폴더, 파일들을 작성 해놓는 곳
 └── index.js                            # 포트 설정 및 
+```
