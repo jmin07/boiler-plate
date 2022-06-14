@@ -16,7 +16,7 @@ module.exports = () => {
 
     // post json 데이터 읽기 위해
     app.use(express.json()); 
-    app.use(express.urlencoded({extends:true})); // true: qs, false: querystring
+    app.use(express.urlencoded({extended:true})); // true: qs, false: querystring
 
     // Route path
     userRoute(app);

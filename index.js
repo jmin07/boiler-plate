@@ -1,10 +1,10 @@
+const logger = require('./config/logger');
 const express = require('./config/express');
 const app = express();
 
-
 app.listen(5000, ()=>{
     try{
-        console.log("listening 중입니다...")
+        logger.info(`[${process.env.NODE_ENV}] API Server Start At Port ${process.env.PORT}`);
     } catch(err){
         console.log(err);
     }
